@@ -1,13 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+/* plus-jakarta-sans-200 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 200;
+  src: url('font/plus-jakarta-sans-v3-latin-200.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/plus-jakarta-sans-v3-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/plus-jakarta-sans-v3-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-200.woff') format('woff'), /* Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/plus-jakarta-sans-v3-latin-200.svg#PlusJakartaSans') format('svg'); /* Legacy iOS */
+}
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 400;
+  src: url('font/plus-jakarta-sans-v3-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/plus-jakarta-sans-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/plus-jakarta-sans-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/plus-jakarta-sans-v3-latin-regular.svg#PlusJakartaSans') format('svg'); /* Legacy iOS */
+}
+/* plus-jakarta-sans-300 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 300;
+  src: url('font/plus-jakarta-sans-v3-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/plus-jakarta-sans-v3-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/plus-jakarta-sans-v3-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-300.woff') format('woff'), /* Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/plus-jakarta-sans-v3-latin-300.svg#PlusJakartaSans') format('svg'); /* Legacy iOS */
+}
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 500;
+  src: url('font/plus-jakarta-sans-v3-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/plus-jakarta-sans-v3-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/plus-jakarta-sans-v3-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-500.woff') format('woff'), /* Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/plus-jakarta-sans-v3-latin-500.svg#PlusJakartaSans') format('svg'); /* Legacy iOS */
+}
+/* plus-jakarta-sans-600 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 600;
+  src: url('font/plus-jakarta-sans-v3-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/plus-jakarta-sans-v3-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/plus-jakarta-sans-v3-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-600.woff') format('woff'), /* Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/plus-jakarta-sans-v3-latin-600.svg#PlusJakartaSans') format('svg'); /* Legacy iOS */
+}
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 700;
+  src: url('font/plus-jakarta-sans-v3-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/plus-jakarta-sans-v3-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/plus-jakarta-sans-v3-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-700.woff') format('woff'), /* Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/plus-jakarta-sans-v3-latin-700.svg#PlusJakartaSans') format('svg'); /* Legacy iOS */
+}
+/* plus-jakarta-sans-800 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 800;
+  src: url('font/plus-jakarta-sans-v3-latin-800.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/plus-jakarta-sans-v3-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/plus-jakarta-sans-v3-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-800.woff') format('woff'), /* Modern Browsers */
+  url('font/plus-jakarta-sans-v3-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/plus-jakarta-sans-v3-latin-800.svg#PlusJakartaSans') format('svg'); /* Legacy iOS */
+}
+
+/* manrope-200 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 200;
+  src: url('font/manrope-v13-latin-200.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/manrope-v13-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/manrope-v13-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/manrope-v13-latin-200.woff') format('woff'), /* Modern Browsers */
+  url('font/manrope-v13-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/manrope-v13-latin-200.svg#Manrope') format('svg'); /* Legacy iOS */
+}
+/* manrope-300 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 300;
+  src: url('font/manrope-v13-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/manrope-v13-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/manrope-v13-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/manrope-v13-latin-300.woff') format('woff'), /* Modern Browsers */
+  url('font/manrope-v13-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/manrope-v13-latin-300.svg#Manrope') format('svg'); /* Legacy iOS */
+}
+/* manrope-regular - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 400;
+  src: url('font/manrope-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/manrope-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/manrope-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/manrope-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('font/manrope-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/manrope-v13-latin-regular.svg#Manrope') format('svg'); /* Legacy iOS */
+}
+/* manrope-500 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 500;
+  src: url('font/manrope-v13-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/manrope-v13-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/manrope-v13-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/manrope-v13-latin-500.woff') format('woff'), /* Modern Browsers */
+  url('font/manrope-v13-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/manrope-v13-latin-500.svg#Manrope') format('svg'); /* Legacy iOS */
+}
+/* manrope-600 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 600;
+  src: url('font/manrope-v13-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/manrope-v13-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/manrope-v13-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/manrope-v13-latin-600.woff') format('woff'), /* Modern Browsers */
+  url('font/manrope-v13-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/manrope-v13-latin-600.svg#Manrope') format('svg'); /* Legacy iOS */
+}
+/* manrope-700 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 700;
+  src: url('font/manrope-v13-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/manrope-v13-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/manrope-v13-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/manrope-v13-latin-700.woff') format('woff'), /* Modern Browsers */
+  url('font/manrope-v13-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/manrope-v13-latin-700.svg#Manrope') format('svg'); /* Legacy iOS */
+}
+/* manrope-800 - latin */
+@font-face {
+  font-family: 'Breezm';
+  font-style: normal;
+  font-weight: 800;
+  src: url('font/manrope-v13-latin-800.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('font/manrope-v13-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/manrope-v13-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+  url('font/manrope-v13-latin-800.woff') format('woff'), /* Modern Browsers */
+  url('font/manrope-v13-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('font/manrope-v13-latin-800.svg#Manrope') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'Breezm';
+  font-weight: 900;
+  unicode-range: U+AC00-D7A3;
+  font-display: swap;
+  src: local('Pretendard Black'), url('font/Pretendard-Black.woff2') format('woff2'), url('font/Pretendard-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Breezm';
+  font-weight: 800;
+  unicode-range: U+AC00-D7A3;
+  font-display: swap;
+  src: local('Pretendard ExtraBold'), url('font/Pretendard-ExtraBold.woff2') format('woff2'), url('font/Pretendard-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Breezm';
+  font-weight: 700;
+  font-display: swap;
+  src: local('Pretendard Bold'), url('font/Pretendard-Bold.woff2') format('woff2'), url('font/Pretendard-Bold.woff') format('woff');
+  unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+  font-family: 'Breezm';
+  font-weight: 600;
+  font-display: swap;
+  src: local('Pretendard SemiBold'), url('font/Pretendard-SemiBold.woff2') format('woff2'), url('font/Pretendard-SemiBold.woff') format('woff');
+  unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+  font-family: 'Breezm';
+  font-weight: 500;
+  font-display: swap;
+  src: local('Pretendard Medium'), url('font/Pretendard-Medium.woff2') format('woff2'), url('font/Pretendard-Medium.woff') format('woff');
+  unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+  font-family: 'Breezm';
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pretendard Regular'), url('font/Pretendard-Regular.woff2') format('woff2'), url('font/Pretendard-Regular.woff') format('woff');
+  unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+  font-family: 'Breezm';
+  font-weight: 300;
+  font-display: swap;
+  src: local('Pretendard Light'), url('font/Pretendard-Light.woff2') format('woff2'), url('font/Pretendard-Light.woff') format('woff');
+  unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+  font-family: 'Breezm';
+  font-weight: 200;
+  font-display: swap;
+  src: local('Pretendard ExtraLight'), url('font/Pretendard-ExtraLight.woff2') format('woff2'), url('font/Pretendard-ExtraLight.woff') format('woff');
+  unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+  font-family: 'Breezm';
+  font-weight: 100;
+  font-display: swap;
+  src: local('Pretendard Thin'), url('font/Pretendard-Thin.woff2') format('woff2'), url('font/Pretendard-Thin.woff') format('woff');
+  unicode-range: U+AC00-D7A3;
+}
+
+pre {
+  font-family: Breezm;
 }
